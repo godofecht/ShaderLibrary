@@ -1,7 +1,8 @@
 uniform vec2 resolution;
 uniform float time;
 
-void main() {
+void main() 
+{
     vec2 uv = gl_FragCoord.xy / resolution.xy;
     vec2 center = uv - 0.5;
     float radius = length(center) * 2.0;
