@@ -1,29 +1,58 @@
 # Shader Library
 
-A small collection of standalone GLSL fragment shaders. They compile with a standard `resolution`/`time` uniform set and write to `gl_FragColor` (or `fragColor` in the heartbeat shader).
+Standalone fragment shaders. Each file is one `main()` against a `resolution`
+and `time` uniform pair, with no framework around it, so they drop into whatever
+you already have.
 
-## Shaders
+![Seven shaders rendered at 512 by 512, time = 1.7](docs/contact-sheet.jpg)
 
-- **AnimatedCircularGradient.h**: radial gradient animated through time.
-- **CheckerBoard.h**: procedural checkerboard.
-- **DynamicColourGradient.h**: animated colour gradient.
-- **HypnosisSpiral.h**: polar spiral driven by sine of angle and radius.
-- **LoopingGradient.h**: smooth looping colour gradient.
-- **NoiseAnimation.h**: animated pseudo-random noise field.
-- **ScanLines.h**: scan-line effect.
-- **hearbeat.h**: heartbeat-style waveform plot.
+Every image above is the actual output, rendered headless at 512 by 512 with
+`time` fixed at 1.7. Full-size PNGs are in [`docs/`](docs/).
 
-## Usage
+## The shaders
 
-Each `.h` file contains a `main()` function. Drop the contents into any environment that provides:
+| File | What it draws |
+|---|---|
+| [`HypnosisSpiral.h`](HypnosisSpiral.h) | `sin(angle * 10 - radius * 20)` in polar coordinates. Ten arms, tightening toward the centre. |
+| [`AnimatedCircularGradient.h`](AnimatedCircularGradient.h) | Radial gradient with the colour driven by time. |
+| [`CheckerBoard.h`](CheckerBoard.h) | Procedural checkerboard. |
+| [`LoopingGradient.h`](LoopingGradient.h) | Colour gradient that returns to where it started. |
+| [`NoiseAnimation.h`](NoiseAnimation.h) | Hash-based noise field, reseeded each frame. |
+| [`ScanLines.h`](ScanLines.h) | Horizontal bands over a gradient. |
+| [`hearbeat.h`](hearbeat.h) | A waveform plotted as a line, in the shape of a heartbeat trace. The filename is misspelled and stays that way so existing links keep working. |
 
-```glsl
-uniform vec2 resolution;
-uniform float time;
+## Metal
+
+[`DynamicColourGradient/DynamicColourGradient_metal.h`](DynamicColourGradient/DynamicColourGradient_metal.h)
+is the same idea written for Metal, taking `resolution` and `time` through
+buffer bindings instead of uniforms.
+
+```metal
+fragment float4 fragmentShader (float2 fragCoord [[position]],
+                                constant float2 &resolution [[buffer(0)]],
+                                constant float &time [[buffer(1)]])
 ```
 
-Examples: Shadertoy, openFrameworks, JUCE OpenGLComponent, custom engine.
+## Known gap
 
-## License
+`DynamicColourGradient.h` is empty. The Metal version above is the only
+implementation of it. Anything that includes the GLSL file will fail to link
+with `No definition of main in fragment shader`.
 
-MIT
+## Use
+
+```glsl
+uniform vec2  resolution;   // viewport size in pixels
+uniform float time;         // seconds
+```
+
+Paste the body into any host that provides those two and writes `gl_FragColor`.
+`hearbeat.h` writes `fragColor` instead, so it needs an `out vec4 fragColor` on
+a core profile.
+
+## Rendering these yourself
+
+The contact sheet came from a standalone OpenGL 3.3 context with no window. Each
+file is wrapped rather than edited: the wrapper supplies the `#version`, the
+uniforms and an `out` variable, and rewrites `gl_FragColor` to it, so the shader
+sources stay exactly as they are.
