@@ -79,3 +79,23 @@ You can validate the import with:
 ```bash
 python3 tools/verify_shadertoy_import.py shadertoy
 ```
+
+## Compile-time GLSL validation (CMake 4.5)
+
+The seven complete standalone GLSL headers can now be wrapped as OpenGL 3.3
+fragment shaders and syntax-checked by `glslangValidator`. The original
+headers are never changed. The CMake 4.5 mode uses **one reusable
+`add_custom_rule(shaderlib_glsl ...)`** instantiated by a typed source file
+set, instead of manually registering one command per file.
+
+```sh
+cmake -S . -B build/validate -DSHADERLIB_USE_CUSTOM_RULES=ON
+cmake --build build/validate
+ctest --test-dir build/validate --output-on-failure
+```
+
+Requires CMake 4.5+, Python 3 and glslangValidator. Without CMake 4.5,
+use `-DSHADERLIB_USE_CUSTOM_RULES=OFF` (default), which supports CMake 3.20+.
+`DynamicColourGradient.h` is still incomplete and is intentionally not
+validated. This is a static validator for the seven standalone shaders, **not**
+a Shadertoy multipass/audio/texture renderer; the Shadertoy archive is separate.
