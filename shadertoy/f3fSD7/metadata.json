@@ -1,0 +1,128 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "f3fSD7",
+    "date": "1781103706",
+    "viewed": 46,
+    "name": "Fork Fork Thund godofecht 682",
+    "description": "Original shader by Akascape\n\nJust had to add some motion to this awesome effect\n\nwhaaaaaaa",
+    "likes": 1,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "vfx",
+      "effect",
+      "scan",
+      "thunder",
+      "energy"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 1,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        },
+        {
+          "id": "XsXGR8",
+          "filepath": "/media/previz/buffer01.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    },
+    {
+      "inputs": [
+        {
+          "id": "Xdf3Rn",
+          "filepath": "/media/a/e81e818ac76a8983d746784b423178ee9f6cdcdf7f8e8d719341a6fe2d2ab303.webm",
+          "type": "video",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dXGR8",
+          "channel": 0
+        }
+      ],
+      "name": "Buffer A",
+      "description": "",
+      "type": "buffer",
+      "source_file": "01_Buffer_A.glsl"
+    },
+    {
+      "inputs": [],
+      "outputs": [],
+      "name": "Common",
+      "description": "",
+      "type": "common",
+      "source_file": "02_Common.glsl"
+    },
+    {
+      "inputs": [
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "XsXGR8",
+          "channel": 0
+        }
+      ],
+      "name": "Buffer B",
+      "description": "",
+      "type": "buffer",
+      "source_file": "03_Buffer_B.glsl"
+    }
+  ]
+}

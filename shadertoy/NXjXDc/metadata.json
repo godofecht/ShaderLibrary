@@ -1,0 +1,57 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "NXjXDc",
+    "date": "1783305394",
+    "viewed": 61,
+    "name": "i-band v3",
+    "description": "wat",
+    "likes": 0,
+    "published": "Public",
+    "usePreview": 1,
+    "tags": [
+      "oring"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    },
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dXGR8",
+          "channel": 0
+        }
+      ],
+      "name": "Buffer A",
+      "description": "",
+      "type": "buffer",
+      "source_file": "01_Buffer_A.glsl"
+    },
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "XsXGR8",
+          "channel": 0
+        }
+      ],
+      "name": "Buffer B",
+      "description": "",
+      "type": "buffer",
+      "source_file": "02_Buffer_B.glsl"
+    }
+  ]
+}

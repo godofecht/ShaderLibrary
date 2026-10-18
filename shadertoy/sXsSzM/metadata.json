@@ -1,0 +1,32 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "sXsSzM",
+    "date": "1780764132",
+    "viewed": 106,
+    "name": "projection mapped lavaland",
+    "description": "lava land projection mapped",
+    "likes": 4,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "lava",
+      "projectionmap"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

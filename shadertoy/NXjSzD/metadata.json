@@ -1,0 +1,32 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "NXjSzD",
+    "date": "1783144504",
+    "viewed": 47,
+    "name": "pyramid scheme",
+    "description": "just a simple pyramid stack",
+    "likes": 4,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "bricks",
+      "pyramid"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

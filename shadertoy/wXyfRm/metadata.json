@@ -1,0 +1,34 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "wXyfRm",
+    "date": "1771527889",
+    "viewed": 97,
+    "name": "oil pastel seas at dusk",
+    "description": "pastel seas",
+    "likes": 5,
+    "published": "Public",
+    "usePreview": 1,
+    "tags": [
+      "reflection",
+      "water",
+      "oil",
+      "dusk"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

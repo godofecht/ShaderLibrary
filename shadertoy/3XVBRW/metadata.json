@@ -1,0 +1,31 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "3XVBRW",
+    "date": "1772187825",
+    "viewed": 75,
+    "name": "planet ink",
+    "description": "ink",
+    "likes": 8,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "ink"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

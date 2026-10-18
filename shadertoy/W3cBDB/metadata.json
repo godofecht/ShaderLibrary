@@ -1,0 +1,33 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "W3cBDB",
+    "date": "1770913748",
+    "viewed": 72,
+    "name": "Pagani Symbolisma? v2",
+    "description": "took the kishimisu shader and warped space so the inside flips outward and folds back on itself",
+    "likes": 3,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "fractal",
+      "beautiful",
+      "inwardfold"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

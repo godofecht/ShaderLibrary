@@ -1,0 +1,32 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "wXGfWz",
+    "date": "1771518325",
+    "viewed": 104,
+    "name": "Colorful Blooms",
+    "description": "UV advection through fractal boundary motion with some sharp multi-band ramps",
+    "likes": 6,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "colors",
+      "smoke"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

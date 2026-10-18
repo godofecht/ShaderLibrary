@@ -1,0 +1,31 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "sXlSRM",
+    "date": "1780759731",
+    "viewed": 79,
+    "name": "a sense of scale",
+    "description": "pointy cloudy ",
+    "likes": 5,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "pintcloud"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

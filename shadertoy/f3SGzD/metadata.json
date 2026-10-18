@@ -1,0 +1,32 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "f3SGzD",
+    "date": "1779148412",
+    "viewed": 41,
+    "name": "Quasi + Zeta",
+    "description": "Quasicrystal + zeta function... pretty simple innit",
+    "likes": 0,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "zeta",
+      "quasi"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

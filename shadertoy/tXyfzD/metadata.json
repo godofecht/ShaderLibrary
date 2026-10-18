@@ -1,0 +1,33 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "tXyfzD",
+    "date": "1771519895",
+    "viewed": 85,
+    "name": "Tectonic Longitude / Latitude",
+    "description": "inky times... rorschach on the face of the world",
+    "likes": 3,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "2d",
+      "deformation",
+      "ink"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

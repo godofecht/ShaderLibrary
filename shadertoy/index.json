@@ -1,0 +1,616 @@
+{
+  "source": "Shadertoy personal JSON export",
+  "userName": "godofecht",
+  "exportedAt": "2026-10-18T03:10:36.341Z",
+  "imported": 44,
+  "excludedNonPublic": 34,
+  "shaders": [
+    {
+      "id": "WX3fzf",
+      "name": "Pagan Symbols?",
+      "description": "some pagan symbolism",
+      "published": "Public",
+      "date": "1770770574",
+      "tags": [
+        "beautiful"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/WX3fzf"
+    },
+    {
+      "id": "33cfzf",
+      "name": "Beautiful marble seas",
+      "description": "Just beautiful, beautiful, liquid noise",
+      "published": "Public",
+      "date": "1770770723",
+      "tags": [
+        "beautiful"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/33cfzf"
+    },
+    {
+      "id": "tXdfzX",
+      "name": "Ripples in the water",
+      "description": "Ripples in the water",
+      "published": "Public",
+      "date": "1770819490",
+      "tags": [
+        "ripples",
+        "mouse",
+        "water"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/tXdfzX"
+    },
+    {
+      "id": "W3cBDB",
+      "name": "Pagani Symbolisma? v2",
+      "description": "took the kishimisu shader and warped space so the inside flips outward and folds back on itself",
+      "published": "Public",
+      "date": "1770913748",
+      "tags": [
+        "fractal",
+        "beautiful",
+        "inwardfold"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/W3cBDB"
+    },
+    {
+      "id": "WXdBWB",
+      "name": "Bloody diarrhoea",
+      "description": "I don't even know where to go from here. There's just so much potential",
+      "published": "Public",
+      "date": "1770939662",
+      "tags": [
+        "beautiful"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/WXdBWB"
+    },
+    {
+      "id": "3XtfWB",
+      "name": "Bruhhhhhhhhhh",
+      "description": "bruhhhhhh",
+      "published": "Public",
+      "date": "1770940115",
+      "tags": [
+        "bruh"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/3XtfWB"
+    },
+    {
+      "id": "W3dBDl",
+      "name": "Modulated Chimel's example - pt2",
+      "description": "chimel  chimel, constrained",
+      "published": "Public",
+      "date": "1771178743",
+      "tags": [
+        "chimelchimel"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/W3dBDl"
+    },
+    {
+      "id": "WXGBRR",
+      "name": "Truly a Broken Record",
+      "description": "grrr",
+      "published": "Public",
+      "date": "1771202685",
+      "tags": [
+        "complexity"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/WXGBRR"
+    },
+    {
+      "id": "33yBRR",
+      "name": "Gooby Goober",
+      "description": "inspired by oil and phosphenes",
+      "published": "Public",
+      "date": "1771202766",
+      "tags": [
+        "oil",
+        "shimmer",
+        "phosphenes"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/33yBRR"
+    },
+    {
+      "id": "33KfRh",
+      "name": "Planet #1",
+      "description": "planet",
+      "published": "Public",
+      "date": "1771320459",
+      "tags": [
+        "planet"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/33KfRh"
+    },
+    {
+      "id": "3XGBRW",
+      "name": "BRO",
+      "description": "this is absurd",
+      "published": "Public",
+      "date": "1771347930",
+      "tags": [
+        "bro"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/3XGBRW"
+    },
+    {
+      "id": "tXGBzD",
+      "name": "Planet #2",
+      "description": "Light is important",
+      "published": "Public",
+      "date": "1771368182",
+      "tags": [
+        "combiningmultipleapproaches"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/tXGBzD"
+    },
+    {
+      "id": "33VBRW",
+      "name": "planet stuff",
+      "description": "stuff",
+      "published": "Public",
+      "date": "1771416796",
+      "tags": [
+        "stuff"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/33VBRW"
+    },
+    {
+      "id": "wXGfWz",
+      "name": "Colorful Blooms",
+      "description": "UV advection through fractal boundary motion with some sharp multi-band ramps",
+      "published": "Public",
+      "date": "1771518325",
+      "tags": [
+        "colors",
+        "smoke"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/wXGfWz"
+    },
+    {
+      "id": "tXyfzD",
+      "name": "Tectonic Longitude / Latitude",
+      "description": "inky times... rorschach on the face of the world",
+      "published": "Public",
+      "date": "1771519895",
+      "tags": [
+        "2d",
+        "deformation",
+        "ink"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/tXyfzD"
+    },
+    {
+      "id": "wXyfRm",
+      "name": "oil pastel seas at dusk",
+      "description": "pastel seas",
+      "published": "Public",
+      "date": "1771527889",
+      "tags": [
+        "reflection",
+        "water",
+        "oil",
+        "dusk"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/wXyfRm"
+    },
+    {
+      "id": "3XVBRW",
+      "name": "planet ink",
+      "description": "ink",
+      "published": "Public",
+      "date": "1772187825",
+      "tags": [
+        "ink"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/3XVBRW"
+    },
+    {
+      "id": "NXB3RD",
+      "name": "The power of drugz",
+      "description": "It's like you've taken way too much acid and you're staring at a flowing river.",
+      "published": "Public",
+      "date": "1779148340",
+      "tags": [
+        "flow",
+        "ambulance"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/NXB3RD"
+    },
+    {
+      "id": "f3SGzD",
+      "name": "Quasi + Zeta",
+      "description": "Quasicrystal + zeta function... pretty simple innit",
+      "published": "Public",
+      "date": "1779148412",
+      "tags": [
+        "zeta",
+        "quasi"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/f3SGzD"
+    },
+    {
+      "id": "NXBGzD",
+      "name": "de blob",
+      "description": "internally lit holographic blob",
+      "published": "Public",
+      "date": "1779149084",
+      "tags": [
+        "noise",
+        "blob"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/NXBGzD"
+    },
+    {
+      "id": "s3lSRM",
+      "name": "The Prime Manifold Counts Itself",
+      "description": "CPU hungry piece o crap",
+      "published": "Public",
+      "date": "1780759368",
+      "tags": [
+        "math"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/s3lSRM"
+    },
+    {
+      "id": "sXlSRM",
+      "name": "a sense of scale",
+      "description": "pointy cloudy ",
+      "published": "Public",
+      "date": "1780759731",
+      "tags": [
+        "pintcloud"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/sXlSRM"
+    },
+    {
+      "id": "sXsSzM",
+      "name": "projection mapped lavaland",
+      "description": "lava land projection mapped",
+      "published": "Public",
+      "date": "1780764132",
+      "tags": [
+        "lava",
+        "projectionmap"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/sXsSzM"
+    },
+    {
+      "id": "fXB3RD",
+      "name": "Chameleon Skin",
+      "description": "Woohoo!",
+      "published": "Public",
+      "date": "1781096529",
+      "tags": [
+        "research"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/fXB3RD"
+    },
+    {
+      "id": "fXXSD7",
+      "name": "cloudy with a chance of spitball",
+      "description": "an attempt at photoreal clouds.",
+      "published": "Public",
+      "date": "1781103574",
+      "tags": [
+        "clouds",
+        "photoreal"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/fXXSD7"
+    },
+    {
+      "id": "f3fSD7",
+      "name": "Fork Fork Thund godofecht 682",
+      "description": "Original shader by Akascape\n\nJust had to add some motion to this awesome effect\n\nwhaaaaaaa",
+      "published": "Public",
+      "date": "1781103706",
+      "tags": [
+        "vfx",
+        "effect",
+        "scan",
+        "thunder",
+        "energy"
+      ],
+      "passes": 4,
+      "channels": 4,
+      "url": "https://www.shadertoy.com/view/f3fSD7"
+    },
+    {
+      "id": "f32Szw",
+      "name": "transmission fractal",
+      "description": "This is a transmission fractal",
+      "published": "Public",
+      "date": "1782189701",
+      "tags": [
+        "fractal"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/f32Szw"
+    },
+    {
+      "id": "sX2Szm",
+      "name": "Diffused turbulent advection",
+      "description": "I'm tired of describing things that escape description in the first place.",
+      "published": "Public",
+      "date": "1782231261",
+      "tags": [
+        "math",
+        "science",
+        "philosophy"
+      ],
+      "passes": 2,
+      "channels": 2,
+      "url": "https://www.shadertoy.com/view/sX2Szm"
+    },
+    {
+      "id": "fXjXWR",
+      "name": "Yes to Every Question",
+      "description": "YES, RESOUNDING YES",
+      "published": "Public",
+      "date": "1782289940",
+      "tags": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/fXjXWR"
+    },
+    {
+      "id": "73SSzG",
+      "name": "continuous beams",
+      "description": "Experiments in continuity",
+      "published": "Public",
+      "date": "1782662708",
+      "tags": [
+        "improv"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/73SSzG"
+    },
+    {
+      "id": "732SRG",
+      "name": "sea of thieves",
+      "description": "fractal boundaries #2",
+      "published": "Public",
+      "date": "1782700695",
+      "tags": [
+        "fractalboundaries"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/732SRG"
+    },
+    {
+      "id": "sX2SRG",
+      "name": "Fungal Dreams",
+      "description": "Brain activation, but fungal",
+      "published": "Public",
+      "date": "1782700902",
+      "tags": [
+        "brain",
+        "dreams",
+        "fungus"
+      ],
+      "passes": 2,
+      "channels": 2,
+      "url": "https://www.shadertoy.com/view/sX2SRG"
+    },
+    {
+      "id": "N3SSzK",
+      "name": "All paths meet at one",
+      "description": "just another morning pondering",
+      "published": "Public",
+      "date": "1782909644",
+      "tags": [
+        "hallucination"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/N3SSzK"
+    },
+    {
+      "id": "f3SXRt",
+      "name": "parameterization of some cool sh",
+      "description": "bruh",
+      "published": "Public",
+      "date": "1782932315",
+      "tags": [
+        "sh",
+        "cool"
+      ],
+      "passes": 2,
+      "channels": 2,
+      "url": "https://www.shadertoy.com/view/f3SXRt"
+    },
+    {
+      "id": "fXBSzK",
+      "name": "Medusean eye",
+      "description": "rocaaaa",
+      "published": "Public",
+      "date": "1783144442",
+      "tags": [
+        "eye",
+        "medusa",
+        "roca"
+      ],
+      "passes": 2,
+      "channels": 2,
+      "url": "https://www.shadertoy.com/view/fXBSzK"
+    },
+    {
+      "id": "N3SXzK",
+      "name": "denver pineapples",
+      "description": "seriously",
+      "published": "Public",
+      "date": "1783144462",
+      "tags": [
+        "fuck",
+        "guy",
+        "that"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/N3SXzK"
+    },
+    {
+      "id": "NXjSzD",
+      "name": "pyramid scheme",
+      "description": "just a simple pyramid stack",
+      "published": "Public",
+      "date": "1783144504",
+      "tags": [
+        "bricks",
+        "pyramid"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/NXjSzD"
+    },
+    {
+      "id": "7XSXzV",
+      "name": "matrix eye v2",
+      "description": "m eye v2",
+      "published": "Public",
+      "date": "1783273102",
+      "tags": [
+        "meye"
+      ],
+      "passes": 2,
+      "channels": 3,
+      "url": "https://www.shadertoy.com/view/7XSXzV"
+    },
+    {
+      "id": "NXjXDc",
+      "name": "i-band v3",
+      "description": "wat",
+      "published": "Public",
+      "date": "1783305394",
+      "tags": [
+        "oring"
+      ],
+      "passes": 3,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/NXjXDc"
+    },
+    {
+      "id": "ffd3RH",
+      "name": "eigenmodes of an fft",
+      "description": "math",
+      "published": "Public",
+      "date": "1783694712",
+      "tags": [
+        "eigenmodes"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/ffd3RH"
+    },
+    {
+      "id": "s3BXWK",
+      "name": "bedazzled",
+      "description": "jazzlin",
+      "published": "Public",
+      "date": "1783694749",
+      "tags": [
+        "dazzlin"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/s3BXWK"
+    },
+    {
+      "id": "sftGWM",
+      "name": "constellasian",
+      "description": "Trying to simulate a very well known psychedelic effect",
+      "published": "Public",
+      "date": "1784032244",
+      "tags": [
+        "lines",
+        "stars",
+        "connections"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/sftGWM"
+    },
+    {
+      "id": "sfySRm",
+      "name": "orlando bloom",
+      "description": "cool shit",
+      "published": "Public",
+      "date": "1787776664",
+      "tags": [
+        "bloom"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/sfySRm"
+    },
+    {
+      "id": "NXcXRf",
+      "name": "5 HT-2A",
+      "description": "This is only the beginning.",
+      "published": "Public",
+      "date": "1792182077",
+      "tags": [
+        "blowingmymind"
+      ],
+      "passes": 1,
+      "channels": 0,
+      "url": "https://www.shadertoy.com/view/NXcXRf"
+    }
+  ]
+}

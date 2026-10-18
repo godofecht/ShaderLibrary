@@ -1,0 +1,32 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "NXBGzD",
+    "date": "1779149084",
+    "viewed": 42,
+    "name": "de blob",
+    "description": "internally lit holographic blob",
+    "likes": 0,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "noise",
+      "blob"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

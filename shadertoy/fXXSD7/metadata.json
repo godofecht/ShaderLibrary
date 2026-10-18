@@ -1,0 +1,32 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "fXXSD7",
+    "date": "1781103574",
+    "viewed": 36,
+    "name": "cloudy with a chance of spitball",
+    "description": "an attempt at photoreal clouds.",
+    "likes": 0,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "clouds",
+      "photoreal"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

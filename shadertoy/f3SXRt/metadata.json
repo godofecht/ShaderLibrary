@@ -1,0 +1,75 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "f3SXRt",
+    "date": "1782932315",
+    "viewed": 48,
+    "name": "parameterization of some cool sh",
+    "description": "bruh",
+    "likes": 1,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "sh",
+      "cool"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    },
+    {
+      "inputs": [
+        {
+          "id": "4dXGR8",
+          "filepath": "/media/previz/buffer00.png",
+          "type": "buffer",
+          "channel": 0,
+          "sampler": {
+            "filter": "linear",
+            "wrap": "clamp",
+            "vflip": "true",
+            "srgb": "false",
+            "internal": "byte"
+          },
+          "published": 1
+        }
+      ],
+      "outputs": [
+        {
+          "id": "4dXGR8",
+          "channel": 0
+        }
+      ],
+      "name": "Buffer A",
+      "description": "",
+      "type": "buffer",
+      "source_file": "01_Buffer_A.glsl"
+    }
+  ]
+}
