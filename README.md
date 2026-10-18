@@ -56,3 +56,26 @@ The contact sheet came from a standalone OpenGL 3.3 context with no window. Each
 file is wrapped rather than edited: the wrapper supplies the `#version`, the
 uniforms and an `out` variable, and rewrites `gl_FragColor` to it, so the shader
 sources stay exactly as they are.
+
+
+## Shadertoy archive: 44 additional public shaders
+
+The [Shadertoy archive](shadertoy/README.md) contains **44 public Shadertoy projects**
+and **54 render-pass GLSL files** imported from the account export dated
+2026-10-18. Each project has its original shader ID, Shadertoy link,
+description, tags, ordered passes and channel/sampler metadata.
+
+These are *original Shadertoy GLSL programs*, not conversions to the
+standalone GLSL `.h` interface above. Some shaders depend on Shadertoy
+uniforms, buffer feedback, audio channels, or external textures; the import
+preserves their channel declarations but does not bundle media or claim
+standalone rendering compatibility.
+
+The export also included **34 shaders marked Private**. They were not
+committed to this public repository.
+
+You can validate the import with:
+
+```bash
+python3 tools/verify_shadertoy_import.py shadertoy
+```
