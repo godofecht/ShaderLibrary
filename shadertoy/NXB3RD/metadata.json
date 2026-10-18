@@ -1,0 +1,32 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "NXB3RD",
+    "date": "1779148340",
+    "viewed": 45,
+    "name": "The power of drugz",
+    "description": "It's like you've taken way too much acid and you're staring at a flowing river.",
+    "likes": 5,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "flow",
+      "ambulance"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "sftGWM",
+    "date": "1784032244",
+    "viewed": 53,
+    "name": "constellasian",
+    "description": "Trying to simulate a very well known psychedelic effect",
+    "likes": 1,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "lines",
+      "stars",
+      "connections"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

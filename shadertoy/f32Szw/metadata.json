@@ -1,0 +1,31 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "f32Szw",
+    "date": "1782189701",
+    "viewed": 86,
+    "name": "transmission fractal",
+    "description": "This is a transmission fractal",
+    "likes": 6,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "fractal"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "tXGBzD",
+    "date": "1771368182",
+    "viewed": 62,
+    "name": "Planet #2",
+    "description": "Light is important",
+    "likes": 0,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "combiningmultipleapproaches"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

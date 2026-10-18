@@ -1,0 +1,31 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "W3dBDl",
+    "date": "1771178743",
+    "viewed": 70,
+    "name": "Modulated Chimel's example - pt2",
+    "description": "chimel  chimel, constrained",
+    "likes": 2,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "chimelchimel"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

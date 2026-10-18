@@ -1,0 +1,33 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "33yBRR",
+    "date": "1771202766",
+    "viewed": 51,
+    "name": "Gooby Goober",
+    "description": "inspired by oil and phosphenes",
+    "likes": 2,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "oil",
+      "shimmer",
+      "phosphenes"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}

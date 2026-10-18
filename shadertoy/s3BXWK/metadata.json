@@ -1,0 +1,31 @@
+{
+  "ver": "0.1",
+  "info": {
+    "id": "s3BXWK",
+    "date": "1783694749",
+    "viewed": 38,
+    "name": "bedazzled",
+    "description": "jazzlin",
+    "likes": 0,
+    "published": "Public",
+    "usePreview": 0,
+    "tags": [
+      "dazzlin"
+    ]
+  },
+  "renderpass": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "4dfGRr",
+          "channel": 0
+        }
+      ],
+      "name": "Image",
+      "description": "",
+      "type": "image",
+      "source_file": "00_Image.glsl"
+    }
+  ]
+}
