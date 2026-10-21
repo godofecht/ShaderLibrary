@@ -1,0 +1,45 @@
+name: Validate GLSL using CMake custom rules
+
+on:
+  pull_request:
+    paths:
+      - '*.h'
+      - 'CMakeLists.txt'
+      - 'tools/wrap_fragment.py'
+      - 'tools/verify_wrappers.py'
+      - '.github/workflows/validate-glsl-rules.yml'
+  push:
+    branches: [main]
+    paths:
+      - '*.h'
+      - 'CMakeLists.txt'
+      - 'tools/wrap_fragment.py'
+      - 'tools/verify_wrappers.py'
+      - '.github/workflows/validate-glsl-rules.yml'
+
+jobs:
+  fragment-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install GLSL validator
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y glslang-tools
+      - name: Install CMake 4.5
+        run: |
+          curl --fail --location --retry 3 \
+            https://github.com/Kitware/CMake/releases/download/v4.5.0-rc1/cmake-4.5.0-rc1-linux-x86_64.tar.gz \
+            -o /tmp/cmake-4.5.0-rc1.tar.gz
+          tar -xzf /tmp/cmake-4.5.0-rc1.tar.gz
+          echo "$PWD/cmake-4.5.0-rc1-linux-x86_64/bin" >> "$GITHUB_PATH"
+      - name: Validate legacy shader rules
+        run: |
+          cmake -S . -B build/legacy -DSHADERLIB_USE_CUSTOM_RULES=OFF
+          cmake --build build/legacy --parallel 2
+          ctest --test-dir build/legacy --output-on-failure
+      - name: Validate CMake 4.5 typed shader rules
+        run: |
+          cmake -S . -B build/custom -DSHADERLIB_USE_CUSTOM_RULES=ON
+          cmake --build build/custom --parallel 2
+          ctest --test-dir build/custom --output-on-failure
