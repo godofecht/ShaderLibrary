@@ -153,7 +153,7 @@ Requires CMake 4.5+, Python 3 and glslangValidator. Without CMake 4.5, use `-DSH
 
 ### Shadertoy archive: 44 additional public shaders
 
-The [Shadertoy archive](shadertoy/README.md) contains 44 public Shadertoy projects and 54 render-pass GLSL files imported from the account export dated 2026-10-18. Each project has its original shader ID, Shadertoy link, description, tags, ordered passes and channel/sampler metadata.
+The [Shadertoy archive](shadertoy/README.md) contains 44 public Shadertoy projects and 54 render-pass GLSL files imported from the account export dated 2026-10-18. Each project has its original shader ID, Shadertoy link, description, tags, ordered passes and channel/sampler metadata. Four shader names, and a few descriptions and tags, were edited after import to suit a school audience. The archive list says which.
 
 These are original Shadertoy GLSL programs. They have not been converted to the standalone `.h` interface above. Some shaders depend on Shadertoy uniforms, buffer feedback, audio channels or external textures; the import keeps their channel declarations but does not bundle media or claim standalone rendering compatibility.
 
