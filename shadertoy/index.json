@@ -63,7 +63,7 @@
     },
     {
       "id": "WXdBWB",
-      "name": "Bloody diarrhoea",
+      "name": "Reaction diffusion field",
       "description": "I don't even know where to go from here. There's just so much potential",
       "published": "Public",
       "date": "1770939662",
@@ -240,8 +240,8 @@
     },
     {
       "id": "NXB3RD",
-      "name": "The power of drugz",
-      "description": "It's like you've taken way too much acid and you're staring at a flowing river.",
+      "name": "Flowing river noise",
+      "description": "Colours drift along a noise flow field, like light on a flowing river.",
       "published": "Public",
       "date": "1779148340",
       "tags": [
@@ -283,7 +283,7 @@
     {
       "id": "s3lSRM",
       "name": "The Prime Manifold Counts Itself",
-      "description": "CPU hungry piece o crap",
+      "description": "CPU hungry",
       "published": "Public",
       "date": "1780759368",
       "tags": [
@@ -463,7 +463,7 @@
     },
     {
       "id": "f3SXRt",
-      "name": "parameterization of some cool sh",
+      "name": "Parameterised shader with sliders",
       "description": "bruh",
       "published": "Public",
       "date": "1782932315",
@@ -497,9 +497,8 @@
       "published": "Public",
       "date": "1783144462",
       "tags": [
-        "fuck",
-        "guy",
-        "that"
+        "plasma",
+        "plaid"
       ],
       "passes": 1,
       "channels": 0,
@@ -573,8 +572,8 @@
     },
     {
       "id": "sftGWM",
-      "name": "constellasian",
-      "description": "Trying to simulate a very well known psychedelic effect",
+      "name": "Constellation lines",
+      "description": "Stars joined by glowing lines.",
       "published": "Public",
       "date": "1784032244",
       "tags": [
@@ -589,7 +588,7 @@
     {
       "id": "sfySRm",
       "name": "orlando bloom",
-      "description": "cool shit",
+      "description": "cool bloom",
       "published": "Public",
       "date": "1787776664",
       "tags": [

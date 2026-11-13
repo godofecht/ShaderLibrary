@@ -47,7 +47,7 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord){
     // ---------- stage zero ----------
     vec3 bg = 0.5 + 0.5 * cos(iTime + q.xyx + vec3(0.0, 2.0, 4.0));
 
-    // ---------- crystal meth shit ----------
+    // ---------- crystal raymarch ----------
     vec3 ro = vec3(0.0, 0.0, t * 0.9);
     vec3 rd = normalize(vec3(uv, 1.5));
     rd.yz *= rot(0.10 * sin(t * 0.31));
